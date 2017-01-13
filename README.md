@@ -1,8 +1,10 @@
-# jumo_exercise
+# Jumo Exercise
 
 ## How to run the script
 * Open the terminal
-* Type python spread.py
+* clone the repo  ```git clone https://github.com/benarito/jumo_exercise.github.com```
+* Change directory to the repo  ```cd jumo_exercise```
+* Run the script ```python spread.py```
 
-## assumptions
-* You are running on a unix based operating system
+## Assumptions
+* You are running on a unix based operating syst
