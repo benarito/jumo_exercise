@@ -28,10 +28,10 @@ def get_max_spread():
         # compare the maxspread and the difference between MxT and MnT
         if diff > max_spread:
             max_spread=diff
-            day_spread['day'], day_spread['diff'] = row[0], max_spread
+            day_spread['day'], day_spread['max_spread'] = row[0], max_spread
 
     # print day and the max_spread
-    print  day_spread['day'], day_spread['diff']
+    print  day_spread['day'], day_spread['max_spread']
 
 if __name__ == "__main__":
     get_max_spread()
